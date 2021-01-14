@@ -1,0 +1,129 @@
+.editor {
+    display: flex;
+}
+
+.editor input.input.qty, .editor input.input.hours {
+    width: 55px;
+    padding: 10px 5px;
+
+    border-right: transparent;
+}
+
+.editor input.input.watt {
+    width: 75px;
+    padding: 10px 5px;
+}
+
+.editor .appliance {
+    width: 250px;
+}
+
+.select2-container {
+    max-width: 100%;
+}
+
+select.selectApp.select2-hidden-accessible {
+}
+
+.select2-container--default .select2-selection--single {
+    height: 100%;
+}
+
+span#select2-svmt-container {
+    height: 100%;
+    line-height: 40px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #dcd7ca !important;
+}
+
+span.select2.select2-container.select2-container--default.select2-container--below.select2-container--open {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+span.select2-selection.select2-selection--single {
+    height: 100%;
+    display: block;
+    line-height: 40px;
+    height: 100% !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-color: #dcd7ca;
+    border-right: transparent;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.item {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+span#select2-yld2-container {
+    height: 100%;
+    line-height: 40px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    height: 100%;
+    line-height: 40px;
+}
+
+.item:only-child .remove {
+    display: none;
+}
+
+.solar {
+    padding: 0 5px;
+    width: 80px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-top: 1px solid #dcd7ca;
+    border-bottom: 1px solid #dcd7ca;
+    line-height: 38px;
+}
+
+.backup {
+    padding: 5px;
+    width: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: 1px solid #dcd7ca;
+    line-height: 28px;
+}
+
+.remove a {
+    text-decoration: none;
+}
+
+.item:only-child .backup {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.remove {
+    padding: 5px;
+    border: 1px solid #dcd7ca;
+    border-left: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 42px;
+}
+
+.usage, .system {
+    display: flex;
+}
+
+.row1-3 {
+    padding: 10px;
+}
+
+.row1-3 h3 {
+    margin: 0;
+    font-size: 24pt;
+}
